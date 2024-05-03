@@ -47,6 +47,7 @@ export const ORG_LIST = [
 /**
  * User permission mock
  */
+
 const DASHBOARD_PERMISSION = {
   id: '9100714781927703',
   parentId: '',
@@ -149,6 +150,16 @@ const MANAGEMENT_PERMISSION = {
           type: PermissionType.MENU,
           route: 'role',
           component: '/management/system/role/index.tsx',
+        },
+        {
+          id: '1689241712490759',
+          parentId: '0249937641030250',
+          label: 'sys.menu.system.tickets_manager ',
+          name: 'Tickets',
+          type: PermissionType.MENU,
+          route: 'tickets',
+          component: '/management/system/tickets/index.tsx',
+
         },
         {
           id: '0157880245365433',

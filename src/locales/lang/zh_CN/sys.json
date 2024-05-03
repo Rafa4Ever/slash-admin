@@ -132,6 +132,7 @@
       "blank": "空白",
       "calendar": "日历",
       "kanban": "看板",
+      "tickets_manager": "工单管理",
       "error": {
         "index": "异常页",
         "403": "403",

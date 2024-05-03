@@ -34,7 +34,7 @@ export default defineConfig({
     // 自动打开浏览器
     open: true,
     host: true,
-    port: 3001,
+    port: 3000,
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
